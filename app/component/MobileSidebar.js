@@ -2,7 +2,7 @@
 "use client";
 
 import { Drawer, Sidebar } from "flowbite-react";
-import { FaYoutube, FaFacebookF, FaInstagram, FaTimes } from "react-icons/fa";
+import { FaInstagram, FaTimes, FaPhone } from "react-icons/fa";
 
 
 import Logo from "../../public/logo/Logo.svg"
@@ -81,14 +81,11 @@ export default function MobileSidebar({ openSidebar, setOpenSidebar }) {
 
                                     <Sidebar.ItemGroup>
                                         <div className="flex">
-                                            <Sidebar.Item href="https://github.com/themesberg/flowbite-react/" icon={FaYoutube}>
 
+                                            <Sidebar.Item href="https://instagram.com/murtinishirleywilliam" target="_blank" rel="noopener noreferrer" icon={FaInstagram}>
                                             </Sidebar.Item>
-                                            <Sidebar.Item href="https://flowbite-react.com/" icon={FaFacebookF}>
 
-                                            </Sidebar.Item>
-                                            <Sidebar.Item href="https://github.com/themesberg/flowbite-react/issues" icon={FaInstagram}>
-
+                                            <Sidebar.Item href="tel:+12165480771" target="_blank" rel="noopener noreferrer" icon={FaPhone}>
                                             </Sidebar.Item>
                                         </div>
                                     </Sidebar.ItemGroup>
